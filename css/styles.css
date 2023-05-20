@@ -894,16 +894,10 @@ img {
     margin-right: 8px;
     cursor: pointer;
 }
-.modal-check-icon {
-    display: block;
-    width: 100%;
-    height: 100%;
-}
-
-.modal-form-check:checked + .modal-form-check-desc .modal-check {
+.modal-form-check:checked + .modal-form-check-desc > .modal-check {
     background-color: var(--background-button);
     border: none;
-    
+    fill: var(--color-hero);
     border-color: var(--background-button);
 }
 .modal-form-submit {
