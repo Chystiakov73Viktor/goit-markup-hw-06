@@ -787,14 +787,12 @@ img {
     color: var(--color-secondary);
     margin-bottom: 16px;
 }
-.modal-form-backdrop {
-    margin-bottom: 8px;
-}
+
 .modal-form {
     display: flex;
     flex-direction: column;
 }
-.modal-form-field:not(:last-child) {
+.container-form-field {
     margin-bottom: 8px;
 }
 .modal-form-desc {
@@ -839,9 +837,10 @@ img {
 .modal-form-input:focus + .modal-icon-input {
     fill: var(--color-action);
 }
-.modal-form-textarea {
+.container-form-textarea {
     margin-bottom: 16px;
 }
+
 .modal-form-message {
     font-size: 12px;
     line-height: 1.17x;
@@ -901,7 +900,7 @@ img {
     height: 100%;
 }
 
-.modal-form-check:checked + .modal-form-check-desc .modal-check-icon {
+.modal-form-check:checked + .modal-form-check-desc .modal-check {
     background-color: var(--background-button);
     border: none;
     
