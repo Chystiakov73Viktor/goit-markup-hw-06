@@ -883,7 +883,7 @@ img {
     color: var(--color-action);
 }
 .modal-check {
-    display: inline-flex;
+    display: flex;
     align-items: center;
     justify-content: center;
     fill: transparent;
