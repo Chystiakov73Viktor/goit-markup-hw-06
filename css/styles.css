@@ -845,7 +845,6 @@ img {
 
 .modal-form-message {
     display: block;
-    font-weight: 500;
     font-size: 12px;
     line-height: 1.17;
     letter-spacing: 0.04em;
@@ -859,7 +858,6 @@ img {
     border: 1px solid rgba(46, 47, 66, 0.2);
     border-radius: 4px;
     transition: border-color var(--transition-dur-func);
-    color: var(--color-textarea);
 }
 .modal-form-message:focus {
     outline: none;
